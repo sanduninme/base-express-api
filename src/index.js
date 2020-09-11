@@ -4,6 +4,8 @@ import mongoose from 'mongoose'
 import { ApiResponse } from './util/api'
 import authRouter from './router/authRouter'
 
+console.log('change from 2nd branch')
+
 const api = express()
 
 // ==================================================== middleware =====================================================
