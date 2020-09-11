@@ -18,6 +18,8 @@ api.use('/auth', authRouter)
 
 console.log('change from 2nd branch')
 
+console.log('change in 1st branch')
+
 api.all('/', (req, res) => res.send(new ApiResponse({}, 'API has started and working!')))
 
 // ====================================================== routes =======================================================
